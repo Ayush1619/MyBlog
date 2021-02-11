@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+<div class="container">
+    
+    <hr>
+    <h1><%= title %></h1>
+    <p><%= content %></p>
+    <h3><%= user%></h3>
+   
+  
+     
+    <form action="/message/<%=id%>" method="post">
+        <label for="">User</label>
+        <input type="text" name="user" class="form-control">
+        <label for="">Message</label>
+        <input type="text" name="message" class="form-control">
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<%- include("partials/footer"); -%>
