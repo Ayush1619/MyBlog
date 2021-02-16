@@ -1,2 +1,2 @@
 # MyBlog
-Under development
+Share your daily thought at one place.
