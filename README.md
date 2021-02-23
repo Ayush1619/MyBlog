@@ -1,2 +1,2 @@
 # MyBlog
-Share your daily thought at one place.
+Share your daily thought at one place..
